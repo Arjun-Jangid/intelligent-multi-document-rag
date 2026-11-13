@@ -1,11 +1,15 @@
-# Python environment and caches
+# Environment variables
+.env
+.env.*
+
+# Allow example environment file
+!.env.example
+
+# Python
+__pycache__/
+*.pyc
 venv/
 .venv/
-__pycache__/
-*.py[cod]
 
-# macOS
+# Other
 .DS_Store
-
-# Local app data
-data/
