@@ -1,15 +1,14 @@
-# Environment variables
 .env
-.env.*
-
-# Allow example environment file
-!.env.example
-
-# Python
-__pycache__/
-*.pyc
 venv/
 .venv/
+__pycache__/
+.mypy_cache/
+*.pyc
 
-# Other
 .DS_Store
+
+data/*
+!data/.gitkeep
+
+*.db
+*.sqlite3
